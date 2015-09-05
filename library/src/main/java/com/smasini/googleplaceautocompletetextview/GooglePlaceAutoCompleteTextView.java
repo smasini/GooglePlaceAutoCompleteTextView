@@ -32,11 +32,11 @@ public class GooglePlaceAutoCompleteTextView extends AutoCompleteTextView {
                 0, 0);
 
         try {
-            mApiKey = a.getString(R.styleable.GooglePlaceAutoCompleteTextView_android_apiKeyGooglePlace);
-            mLanguage = a.getString(R.styleable.GooglePlaceAutoCompleteTextView_android_language);
-            mType = a.getString(R.styleable.GooglePlaceAutoCompleteTextView_android_type);
-            mSensor = a.getBoolean(R.styleable.GooglePlaceAutoCompleteTextView_android_sensor, false);
-            mTheme = a.getInteger(R.styleable.GooglePlaceAutoCompleteTextView_android_themeAutoComplete, 0);
+            mApiKey = a.getString(R.styleable.GooglePlaceAutoCompleteTextView_apiKeyGooglePlace);
+            mLanguage = a.getString(R.styleable.GooglePlaceAutoCompleteTextView_languageSuggestions);
+            mType = a.getString(R.styleable.GooglePlaceAutoCompleteTextView_placeType);
+            mSensor = a.getBoolean(R.styleable.GooglePlaceAutoCompleteTextView_sensorEnabled, false);
+            mTheme = a.getInteger(R.styleable.GooglePlaceAutoCompleteTextView_themeDropdownAutoComplete, 0);
         } finally {
             a.recycle();
         }
