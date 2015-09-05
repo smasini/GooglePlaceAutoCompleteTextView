@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GooglePlaceAutoCompleteTextView">
+        <attr name="android:apiKeyGooglePlace" format="string" />
+        <attr name="android:language" format="string" />
+        <attr name="android:type" format="string" />
+        <attr name="android:sensor" format="boolean" />
+        <attr name="android:themeAutoComplete" format="enum" >
+            <enum name="dark_theme" value="0"/>
+            <enum name="light_theme" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
