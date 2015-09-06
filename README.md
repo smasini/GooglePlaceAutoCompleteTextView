@@ -6,12 +6,14 @@ work in progress
 ## Usage
 Tested on Android Studio.
 Import it as a dependency:
-
+```
 compile 'com.smasini.googleplaceautocompletetextview:com.smasini.googleplaceautocompletetextview:1.1@aar'
-
+```
 In your layout:
+```
 xmlns:custom="http://schemas.android.com/apk/res-auto"
-
+```
+```
 <com.smasini.googleplaceautocompletetextview.GooglePlaceAutoCompleteTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -23,3 +25,4 @@ xmlns:custom="http://schemas.android.com/apk/res-auto"
             custom:placeType="geocode"
             custom:themeDropdownAutoComplete="light_theme"
             />
+```
